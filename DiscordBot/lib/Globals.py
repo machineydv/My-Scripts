@@ -4,10 +4,10 @@ repo_names = {
     'CPython': 'CPython',
     'Go': 'Golang',
     'Cython': 'Cython',
-    'PHP-src': 'PHP',
+    'Selenium': 'Selenium',
     'Rust': 'Rust',
 }
-repositories = ("python/CPython", "golang/Go", "Cython/Cython", "PHP/PHP-src", "rust-lang/Rust")
+repositories = ("python/CPython", "golang/Go", "Cython/Cython", "SeleniumHQ/Selenium", "rust-lang/Rust")
 my_repositories = ("machinexa2/Nemesis", "machinexa2/XSSTerminal", "machinexa2/EventTimer", "machinexa2/WikiTools")
 
 global_headers = {

@@ -34,5 +34,6 @@ def fetch_stars_subs(url):
 
 def fetch_corona_infection():
     response = BeautifulSoup(get("https://www.worldometers.info/coronavirus/").text, 'html.parser')
-    i, d = tuple(filter(lambda s: ',' in s, response.find_all('title')[0].text.lower().split(':')[-1].strip(' ').split('from')[0].strip(' ').split(' ')))
-    return int(i.replace(',', '')), int(d.replace(',', ''))
+    r = list(list(response.find_all('tbody', {'class': 'total_row_body'})[0].children)[1].children)
+    i, d = int(r[5].string.replace(',', '')), int(r[9].string.replace(',', ''))
+    return i, d 

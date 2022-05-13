@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.10
 
 import asyncio
 
@@ -60,7 +60,7 @@ helper = BotHelper()
 class BotClient(Client):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        corona_news_launch()
+        #corona_news_launch()
         self.loop.create_task(self.publish_corona(helper.corona_string))
         self.loop.create_task(self.publish_personal(helper.personal_string))
         self.loop.create_task(self.publish_other(helper.other_string))
