@@ -1,18 +1,15 @@
-discord_server = "Do Anything"
-terms = ("corona strain news", "coronavirus strain news", "New virus 2021", "New virus", "new corona variant", "variant of corona")
-repo_names = {
-    'CPython': 'CPython',
-    'Go': 'Golang',
-    'Cython': 'Cython',
-    'Selenium': 'Selenium',
-    'Rust': 'Rust',
-}
-repositories = ("python/CPython", "golang/Go", "Cython/Cython", "SeleniumHQ/Selenium", "rust-lang/Rust")
-my_repositories = ("machinexa2/Nemesis", "machinexa2/XSSTerminal", "machinexa2/EventTimer", "machinexa2/WikiTools")
+_repositories = ['Python/CPython', 'SeleniumHQ/Selenium']
+_referrals = {
+        'honeygain': ["https://bit.ly/honeygaindiscord", "https://bit.ly/3xeQdvM"],
+        'iproyal': ["https://bit.ly/iproyaldiscord", "https://bit.ly/3H2HnWe"],
+        'earnapp': ["https://bit.ly/earnappdiscordlink", "https://bit.ly/3x8RKTO"],
+        'packetstream': ["https://bit.ly/packetstreamdiscord"],
+        'bitping': ["https://bit.ly/bitpingearn", "https://bit.ly/bitpingbsv"],
+        'speedshare': [],
+        'peer2profit': ["https://bit.ly/peertoprofitearn", "https://bit.ly/peer2proft"],
+        'traffmonetizer': ["https://bit.ly/traffmonetizerearn", "https://bit.ly/traffmonetiser"],
+        'picoworker': ["https://bit.ly/3GZMExY"],
+        'adbtc': ["https://bit.ly/3MryQgF"],
+        'presearch': ["https://bit.ly/presearchengine", "https://bit.ly/presearch_engine"],
 
-global_headers = {
-    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.5',
 }
